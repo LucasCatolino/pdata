@@ -1,4 +1,4 @@
-# Personal Data
+# Cantidad y calidad del sueño relacionado a las horas de estudio/cursada y actividad física
 
 Repositorio creado para la materia Visualización de la Información.
 El trabajo consiste en realizar una visualización a partir de datos recolectados de manera personal. Los datos elegidos fueron:
