@@ -1,17 +1,345 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>TP Infovis</title>
+	<style>
+	{
+		box-sizing: border-box;
+	}
+	/* Set additional styling options for the columns*/
+	
+	.column {
+		float: left;
+		width: 50%;
+	}
+	
+	.column2 {
+		float: left;
+		width: 5%;
+	}
+	
+	.column3 {
+		float: left;
+		width: 30%;
+	}
+	
+	.column4 {
+		float: left;
+		width: 60%;
+	}
+	
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>TP Infovis</title>
 </head>
+
 <body>
-  <h1> Cantidad y calidad del sueño relacionado a las horas de estudio/cursada y actividad física </h1>
-  <p>
-    <div class='tableauPlaceholder' id='viz1632147325341' style='position: relative'><noscript><a href='#'><img alt='Pasos semanales 2018 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2018&#47;Heatmappasossemanal&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TPinfovis2018&#47;Heatmappasossemanal' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2018&#47;Heatmappasossemanal&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1632147325341');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  </p>
-  <p>
-    <div class='tableauPlaceholder' id='viz1632148045576' style='position: relative'><noscript><a href='#'><img alt='Pasos semanales 2021 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Heatmappasossemanal&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TPinfovis2021&#47;Heatmappasossemanal' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Heatmappasossemanal&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1632148045576');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  </p>
+	<h1> Cantidad y calidad del sueño relacionado a las horas de estudio/cursada y actividad física </h1>
+	<div class="row">
+		<div class="column" style="background-color:#FFB695;">
+			<!-- Pasos semanales 2018 -->
+			<div class='tableauPlaceholder' id='viz1632519603757' style='position: relative'>
+				<noscript>
+					<a href='#'><img alt='Pasos semanales 2018 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2018&#47;Heatmappasossemanal&#47;1_rss.png' style='border: none' /></a>
+				</noscript>
+				<object class='tableauViz' style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					<param name='embed_code_version' value='3' />
+					<param name='site_root' value='' />
+					<param name='name' value='TPinfovis2018&#47;Heatmappasossemanal' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2018&#47;Heatmappasossemanal&#47;1.png' />
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='language' value='es-ES' />
+					<param name='filter' value='publish=yes' /> </object>
+			</div>
+			<script type='text/javascript'>
+			var divElement = document.getElementById('viz1632519603757');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			vizElement.style.width = '100%';
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+		</div>
+		<div class="column" style="background-color:#96D1CD;">
+			<!-- Pasos semanales 2021 -->
+			<div class='tableauPlaceholder' id='viz1632519084864' style='position: relative'>
+				<noscript>
+					<a href='#'><img alt='Pasos semanales 2021 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Heatmappasossemanal&#47;1_rss.png' style='border: none' /></a>
+				</noscript>
+				<object class='tableauViz' style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					<param name='embed_code_version' value='3' />
+					<param name='site_root' value='' />
+					<param name='name' value='TPinfovis2021&#47;Heatmappasossemanal' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Heatmappasossemanal&#47;1.png' />
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='language' value='es-ES' />
+					<param name='filter' value='publish=yes' /> </object>
+			</div>
+			<script type='text/javascript'>
+			var divElement = document.getElementById('viz1632519084864');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			vizElement.style.width = '100%';
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+		</div>
+	</div>
+	<div class="row">
+		<p></p>
+	</div>
+	<div class="row">
+		<p> Me pareció interesante analizar la diferencia de pasos entre días del 2018 (época pre pandemia) el mismo período del 2021. Se puede ver claramente el impacto en el movimiento: en el 2018 el día con menos pasos fue un jueves con 8224, mientras que en el 2021 fue un jueves con 1483. Los dos días con mayor cantidad de pasos (12149 y 10743) corresponden a días en los que tuve que ir a hacerme estudios por lo que el movimiento no parece corresponderse con los días normales. </p>
+		<p> No es coincidencia que los días jueves del 2021 correspondan a los días de menor movimiento, ya que es el día con mayor carga horaria de cursada. En el siguiente gráfico se analiza la correlación entre horas de estudio frente al movimiento diario. </p>
+	</div>
+	<div class="row">
+		<p></p>
+	</div>
+	<div class="row">
+		<div class="column2">
+			<p></p>
+		</div>
+		<div class="column" style="background-color:#96D1CD;">
+			<!-- Correlación estudio movimiento -->
+			<div class='tableauPlaceholder' id='viz1632520684879' style='position: relative'>
+				<noscript>
+					<a href='#'><img alt='Correlación entre pasos y horas sentado ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Correlacinpasos-horas&#47;1_rss.png' style='border: none' /></a>
+				</noscript>
+				<object class='tableauViz' style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					<param name='embed_code_version' value='3' />
+					<param name='site_root' value='' />
+					<param name='name' value='TPinfovis2021&#47;Correlacinpasos-horas' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Correlacinpasos-horas&#47;1.png' />
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='language' value='es-ES' />
+					<param name='filter' value='publish=yes' /> </object>
+			</div>
+			<script type='text/javascript'>
+			var divElement = document.getElementById('viz1632520684879');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			vizElement.style.width = '100%';
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+		</div>
+		<div class="column2">
+			<p></p>
+		</div>
+		<div class="column3">
+			<p> La línea de tendencia negativa indica que existe una correlación entre las horas de estudio, reuniones o cursada y la cantidad de pasos que doy en un día. Si bien hay algunos datos que se escapan de la norma común, no fueron días "normales". En general, los días de mayor estudio o mayor carga horaria de cursada son los días en los que menos me muevo, y eso se refleja en la poca cantidad de pasos. </p>
+		</div>
+		<div class="column2">
+			<p></p>
+		</div>
+	</div>
+	<div class="row">
+		<p></p>
+	</div>
+	<div class="row">
+		<div class="column2">
+			<p></p>
+		</div>
+		<div class="column3">
+			<p> Se puede ver cómo a medida que me iba acercando al primer parcial las horas por día dedicadas a estar sentado frente a la computadora fueron aumentando. En los días previos hubo dos eventos familiares que no me quise perder, por lo que esos días dediqué pocas horas al estudio comparado a los días anteriores y siguientes. </p>
+			<p> La línea de tendencia positiva refuerza visualmente cómo la carga horaria fue aumentando a lo largo del cuatrimestre. </p>
+		</div>
+		<div class="column2">
+			<p></p>
+		</div>
+		<div class="column" style="background-color:#96D1CD;">
+			<!-- Horas de estudio por dia -->
+			<div class='tableauPlaceholder' id='viz1632521915385' style='position: relative'>
+				<noscript>
+					<a href='#'><img alt='Horas de estudio por día ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Hoja8&#47;1_rss.png' style='border: none' /></a>
+				</noscript>
+				<object class='tableauViz' style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					<param name='embed_code_version' value='3' />
+					<param name='site_root' value='' />
+					<param name='name' value='TPinfovis2021&#47;Hoja8' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Hoja8&#47;1.png' />
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='language' value='es-ES' />
+					<param name='filter' value='publish=yes' />
+				</object>
+			</div>
+			<script type='text/javascript'>
+			var divElement = document.getElementById('viz1632521915385');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			vizElement.style.width = '100%';
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+		</div>
+		<div class="column2">
+			<p></p>
+		</div>
+	</div>
+	<div class="row">
+		<p></p>
+	</div>
+	<div class="row">
+		<div class="column2">
+			<p></p>
+		</div>
+		<div class="column4" style="background-color:#96D1CD;">
+			<!-- Sueño profundo, liviano y calidad -->
+			<div class='tableauPlaceholder' id='viz1632522422906' style='position: relative'>
+				<noscript>
+					<a href='#'><img alt='Sueño profundo, liviano y calidad ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Hoja9&#47;1_rss.png' style='border: none' /></a>
+				</noscript>
+				<object class='tableauViz' style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					<param name='embed_code_version' value='3' />
+					<param name='site_root' value='' />
+					<param name='name' value='TPinfovis2021&#47;Hoja9' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Hoja9&#47;1.png' />
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='language' value='es-ES' />
+					<param name='filter' value='publish=yes' />
+				</object>
+			</div>
+			<script type='text/javascript'>
+			var divElement = document.getElementById('viz1632522422906');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			vizElement.style.width = '100%';
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+		</div>
+		<div class="column3">
+			<p> La calidad del sueño viene dada por las horas de sueño profundo que dormimos. Esta estapa fomenta la recuperación física, los aspectos de la memoria, la asimilación del aprendizaje y ayuda al sistema inmunológico. </p>
+			<p> La cantidad de sueño profundo puede verse influenciada por diversos motivos. La idea original de este trabajo era ver si existía una relación entre la cantidad de horas que pasaba frente a la pantalla ya sea estudiando, en reuniones o cursando y la calidad de mi sueño. Pero se puede notar que más allá de ciertas fluctuaciones, siempre duermo bien. </p>
+			<p> Sin embargo, el día que peor dormí corresponde a la noche anterior a rendir el primer parcial. Los nervios y el estrés de un parcial claramente afectan a la calidad del sueño. </p>
+		</div>
+		<div class="column2">
+			<p></p>
+		</div>
+	</div>
+	<div class="row">
+		<p></p>
+	</div>
+	<div class="row">
+		<div class="column" style="background-color:#FFB695;">
+			<!-- Sueño semanal 2018 -->
+			<div class='tableauPlaceholder' id='viz1632416096350' style='position: relative'>
+				<noscript>
+					<a href='#'><img alt='Sueño semanal 2018 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2018&#47;Heatmapsueosemanal&#47;1_rss.png' style='border: none' /></a>
+				</noscript>
+				<object class='tableauViz' style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					<param name='embed_code_version' value='3' />
+					<param name='site_root' value='' />
+					<param name='name' value='TPinfovis2018&#47;Heatmapsueosemanal' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2018&#47;Heatmapsueosemanal&#47;1.png' />
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='language' value='es-ES' />
+					<param name='filter' value='publish=yes' /> </object>
+			</div>
+			<script type='text/javascript'>
+			var divElement = document.getElementById('viz1632416096350');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			vizElement.style.width = '100%';
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+		</div>
+		<div class="column" style="background-color:#96D1CD;">
+			<!-- Sueño semanal 2021 -->
+			<div class='tableauPlaceholder' id='viz1632523335570' style='position: relative'>
+				<noscript>
+					<a href='#'><img alt='Sueño semanal 2021 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Heatmapsueosemanal&#47;1_rss.png' style='border: none' /></a>
+				</noscript>
+				<object class='tableauViz' style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					<param name='embed_code_version' value='3' />
+					<param name='site_root' value='' />
+					<param name='name' value='TPinfovis2021&#47;Heatmapsueosemanal' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TPinfovis2021&#47;Heatmapsueosemanal&#47;1.png' />
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='language' value='es-ES' />
+					<param name='filter' value='publish=yes' />
+				</object>
+			</div>
+			<script type='text/javascript'>
+			var divElement = document.getElementById('viz1632523335570');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			vizElement.style.width = '100%';
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+		</div>
+	</div>
+	<div class="row">
+		<p></p>
+	</div>
+	<div class="row">
+		<p> Comparando mi sueño con época pre pandemia, puedo remarcar lo mal que dormía los domingos. En esa época trabajaba los domingos a la mañana. Igualmente siempre traté de mantener mi higiene del sueño. </p>
+		<p> En cuanto al 2021, puede verse que la cantidad y calidad de mi sueño no se vio afectada por la pandemia. La razón de dormir menos comparado a esa época es porque en ese entonces no cursaba a la mañana. De hecho, si no existiera la virtualidad tendría que restar de 1.5 a 2 horas de sueño por día para tener que sumar el tiempo de viaje a la facultad. </p>
+	</div>
 </body>
+
 </html>
